@@ -1,3 +1,11 @@
+#React Wordle Tutorial
+This project is my attempt at following the React Wordle Tutorial created by
+YouTuber "The Net Ninja".
+His channel is here: https://www.youtube.com/@NetNinja
+Part 1 of his react wordle tutorial is here: https://www.youtube.com/watch?v=ZSWl5UwhHcs&ab_channel=TheNetNinja
+
+Note: there are some changes between his code and mine.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

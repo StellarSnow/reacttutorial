@@ -1,0 +1,19 @@
+{
+    "solutions": [
+        {"id": 1, "word": "ninja"},
+        {"id": 2, "word": "spade"},
+        {"id": 3, "word": "drive"},
+        {"id": 4, "word": "relax"},
+        {"id": 5, "word": "blame"},
+        {"id": 6, "word": "phone"},
+        {"id": 7, "word": "quote"},
+        {"id": 8, "word": "after"},
+        {"id": 9, "word": "night"},
+        {"id": 10, "word": "salsa"},
+        {"id": 11, "word": "point"},
+        {"id": 12, "word": "blank"},
+        {"id": 13, "word": "hello"},
+        {"id": 14, "word": "agent"},
+        {"id": 15, "word": "ready"}
+    ]
+}

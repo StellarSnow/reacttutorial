@@ -8,7 +8,7 @@ const useWordle = (solution) => {
     const [isCorrect, setIsCorrect] = useState(false);
 
     const formatGuess = () => {
-
+        console.log('formatting the guess - ', currentGuess)
     }
 
     const addNewGuess = () => {
@@ -16,6 +16,25 @@ const useWordle = (solution) => {
     }
 
     const handleKeyup = ({ key }) => {
+        if (key === 'Enter') {
+            if (turn > 5) {
+                console.log('You used all your guesses.')
+                return
+            }
+
+            if (history.includes(currentGuess)) {
+                console.log('You already tried this word.')
+                return
+            }
+
+            if (currentGuess.length !== 5) {
+                console.log('Word must be 5 characters long')
+                return
+            }
+
+            formatGuess()
+        }
+
         if (key === 'Backspace') {
             setCurrentGuess((prev) => {
                 return prev.slice(0, -1)

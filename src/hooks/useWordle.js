@@ -82,17 +82,17 @@ const useWordle = (solution) => {
     const handleKeyup = ({ key }) => {
         if (key === 'Enter') {
             if (turn > 5) {
-                console.log('You used all your guesses.')
+                //You used all your guesses
                 return
             }
 
             if (history.includes(currentGuess)) {
-                console.log('You already tried this word.')
+                //You already tried this word
                 return
             }
 
             if (currentGuess.length !== 5) {
-                console.log('Word must be 5 characters long')
+                //Word must be 5 characters long
                 return
             }
 
